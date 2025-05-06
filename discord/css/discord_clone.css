@@ -1,0 +1,232 @@
+/* =========== 글로벌 리셋 =========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: #f6f6f6;
+}
+.overflow_hidden {
+    overflow: hidden;
+}
+
+/* =========== 공통 버튼 스타일 =========== */
+a.btn_download,
+a.btn_login {
+    display: inline-block;
+    background-color: #5865f2;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+a.btn_download:hover,
+a.btn_login:hover {
+    background-color: #4752c4;
+}
+
+.wrapper_main,
+.overflow_hidden {
+    background-image: url(../img/main_bg.png);
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/* =========== Header =========== */
+.section_header {
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+.wrapper_header_content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 80px;
+}
+.img_logo {
+    display: block;
+}
+.nav_menu .nav_list {
+    display: flex;
+    gap: 1rem;
+}
+.nav_menu .nav_link {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+}
+.nav_menu .nav_link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* =========== Hero =========== */
+.section_hero {
+    background: url("https://cdn.prod.website-files.com/.../main_bg.webp")
+        center top / cover no-repeat;
+    text-align: center;
+    color: #fff;
+    padding: 8rem 2rem;
+}
+.wrapper_hero {
+    max-width: 700px;
+    margin: auto;
+}
+.hero_title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.hero_desc {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+/* =========== Features =========== */
+.section_features {
+    background-color: #fff;
+    padding: 4rem 2rem;
+}
+.wrapper_features {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.feature_item {
+    width: 300px;
+    text-align: center;
+}
+.feature_img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+.feature_title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.feature_desc {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* =========== Streaming =========== */
+.section_streaming {
+    background-color: #7289da;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+.streaming_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.streaming_desc {
+    font-size: 1.125rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* =========== Platforms =========== */
+.section_platforms {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.platforms_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.platforms_desc {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+.wrapper_platform_logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.platform_logo {
+    width: 50px;
+    opacity: 0.8;
+}
+
+/* =========== Partners =========== */
+.section_partners {
+    background-color: #f2f3f5;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.partners_title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.wrapper_partner_logos {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.partner_logo {
+    width: 100px;
+    opacity: 0.7;
+}
+
+/* =========== CTA =========== */
+.section_cta {
+    background-color: #5865f2;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+.cta_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.cta_btn {
+    padding: 0.75rem 1.5rem;
+}
+
+/* =========== Footer =========== */
+.section_footer {
+    background-color: #23272a;
+    color: #b9bbbe;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.wrapper_footer {
+    max-width: 1200px;
+    margin: auto;
+}
+.wrapper_footer_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.footer_link {
+    color: #b9bbbe;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.footer_link:hover {
+    color: #fff;
+}
+.footer_copy {
+    font-size: 0.85rem;
+}
