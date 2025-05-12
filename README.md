@@ -1,4 +1,4 @@
-# 6주차 클라우드 어플리케이션 개발 과제
+# 클라우드 어플리케이션 개발
 
 ## HTML(+ JavaScript) 및 CSS 연습
 
@@ -9,3 +9,5 @@
 ## 자신이 원하는 웹 페이지 선택하여 클론 코딩
 
 👉🏻 [Discord Clone - Homepage](discord/discord.html)
+
+-   2025년 5월 12일 JavaScript 추가

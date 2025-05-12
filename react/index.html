@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>React APP</title>
+	<link rel="icon" type="image/png" sizes="32x32" href="https://react.dev/favicon-32x32.png">
+	<!-- React CDN -->
+	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	<!-- Babel CDN -->
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+	<!-- root -->
+	<div id="root"></div>
+
+	<!-- React Component Rendering -->
+	<script type="text/babel">
+		function App() {
+			return (
+				<div>
+					<h1>Hello, React!</h1>
+					<p>This is a simple React component rendered using CDN and Babel.</p>
+				</div>
+			);
+		}
+
+		// Render the App component into the root div
+		ReactDOM.render(<App />, document.getElementById('root'));
+	</script>
+</body>
+
+</html>
