@@ -1,0 +1,8 @@
+/* Dropdown arrow animation styles */
+.nav_dd_arrow {
+  transition: transform 0.3s ease;
+}
+
+.nav_dd_arrow.arrow-up {
+  transform: rotate(180deg);
+}

@@ -1,13 +1,12 @@
-import './App.css';
-import Button from './button';
+import React from 'react';
+import UseEffectExample from './components/useEffectExample';
 
+// 변수로 설정한 예시
 function App() {
-    const isLoggedIn = false;
-
     return (
-        <>
-            <Button btnName='로그아웃 버튼' />
-        </>
+        <div className='App'>
+            <UseEffectExample />
+        </div>
     );
 }
 

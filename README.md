@@ -2,9 +2,9 @@
 
 ## HTML(+ JavaScript) 및 CSS 연습
 
--   📗 [HTML(+ JavaScript) 실습](practice/week6/practice_html.html)
+-   📗 [HTML(+ JavaScript) 실습](practice/html/practice_html.html)
 
--   📗 [CSS 실습](practice/week6/practice_css.html)
+-   📗 [CSS 실습](practice/html/practice_css.html)
 
 ## 자신이 원하는 웹 페이지 선택하여 클론 코딩
 

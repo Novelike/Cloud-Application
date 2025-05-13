@@ -1,0 +1,42 @@
+/* Basic styles from discord.css */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: Abcgintodiscord, sans-serif;
+}
+
+body {
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, p {
+	text-align: left;
+}
+
+@font-face {
+	font-family: Abcgintodiscord;
+	src: url('../public/fonts/ABCGintoDiscord-Regular.woff2') format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.main_wrapper,
+.overflow_hidden {
+	background-image: url('../public/images/main_bg.png');
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.overflow_hidden {
+	overflow: hidden;
+}
