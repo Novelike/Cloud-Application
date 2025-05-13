@@ -1,7 +1,7 @@
 function Button(props) {
     console.log(props);
 
-    return <button>{props.btnName}</button>;
+    return <Button>{props.btnName}</Button>;
 }
 
 export default Button;

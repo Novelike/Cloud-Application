@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Code Quality Tools
+
+This project uses ESLint and Prettier to ensure code quality and consistent formatting.
+
+### ESLint
+
+ESLint is configured to enforce code quality rules and catch potential issues.
+
+Available commands:
+- `npm run lint`: Run ESLint on all JavaScript and JSX files in the src directory
+- `npm run lint:fix`: Run ESLint and automatically fix issues when possible
+
+### Prettier
+
+Prettier is configured to ensure consistent code formatting across the project.
+
+Available commands:
+- `npm run format`: Format all JavaScript, JSX, JSON, CSS, SCSS, and Markdown files in the src directory
+- `npm run format:check`: Check if files are properly formatted without making changes
+
+### Combined Command
+
+- `npm run lint-format`: Run both ESLint fix and Prettier format in sequence
+
+### Pre-commit Hook
+
+This project uses Husky and lint-staged to automatically run ESLint and Prettier on staged files before committing. This ensures that all committed code meets the project's coding standards.
