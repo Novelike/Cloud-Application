@@ -95,6 +95,3 @@
 
 # Specific large files or directories
 **/node_modules/.cache/
-**/.cache/
-**/dist/
-**/build/
