@@ -11,3 +11,7 @@
 👉🏻 [Discord Clone - Homepage](discord/discord.html)
 
 -   2025년 5월 12일 JavaScript 추가
+
+## 디스코드 클론 페이지 리액트화 하기
+
+👉🏻 [Discord Clone - React Version](react/discord-app/README.md)
