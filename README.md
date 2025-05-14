@@ -14,4 +14,4 @@
 
 ## 디스코드 클론 페이지 리액트화 하기
 
-👉🏻 [Discord Clone - React Version](react/discord-app/README.md)
+👉🏻 [Discord Clone - React Version](react/discord-app)
